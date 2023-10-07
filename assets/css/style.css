@@ -1,0 +1,150 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+body {
+  background: #202124;
+  color: #fff;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+nav li {
+  margin-left: 6px;
+}
+
+nav li:nth-child(1),
+nav li:nth-child(2) {
+  margin-top: 4px;
+}
+nav li:nth-child(1):hover,
+nav li:nth-child(2):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+svg {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+header img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-top: 2px solid red;
+  border-right: 2px solid blue;
+  border-bottom: 2px solid green;
+  border-left: 2px solid yellow;
+}
+
+main {
+  margin: 50px auto;
+  text-align: center;
+}
+
+main div:first-child {
+  margin-bottom: 20px;
+}
+
+div input {
+  padding: 5px 8px 0 14px;
+  width: 584px;
+  height: 48px;
+  border-radius: 28px;
+  outline: 2px;
+  background-color: transparent;
+  border: 1px solid #bdc1c6;
+}
+
+main div svg:first-child {
+  margin-right: -40px;
+  margin-bottom: -4px;
+  width: 20px;
+}
+
+.goxjub {
+  margin-left: -70px;
+  margin-bottom: -4px;
+  width: 20px;
+}
+.Gdd5U {
+  margin-bottom: -4px;
+}
+
+.google__input {
+  margin-bottom: 40px;
+}
+
+button {
+  color: #e8eaed;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  text-align: center;
+  height: 36px;
+  min-width: 54px;
+  line-height: 27px;
+  background-color: #303134;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.google__lang {
+  word-spacing: 2px;
+  margin-top: 15px;
+  font-size: 14px;
+  margin-bottom: 250px;
+}
+
+.google__lang a {
+  text-decoration: none;
+  color: #8ab4f8;
+}
+
+footer {
+  color: #9aa0a6;
+  background-color: #171717;
+}
+
+footer div:first-child {
+  padding: 10px 30px;
+  border-bottom: 1px solid #3c4043;
+}
+
+.google__links {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 0 0;
+}
+
+.google__links a {
+  text-decoration: none;
+  color: #9aa0a6;
+}
+
+.google__links-1 li {
+  margin-left: 10px;
+}
+.google__links-2 {
+  padding-top: 10px;
+}
+.google__links-3 li {
+  margin-right: 10px;
+}
